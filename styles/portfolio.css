@@ -128,9 +128,50 @@ main{
     font-size: 80px;
     font-weight: bold;
     color: rgba(78, 71, 255, 1);
+    margin-top: 30px;
    
 }
 .data-subtitle{
    font-size: 20px;
    color: rgba(0, 0, 0, 0.5);
+   
+}
+/* feedback-section */
+
+.feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.feedback-section{
+    margin-top: 140px;
+}    
+.feedback-contant{
+    text-align: center;
+    
+}
+.feedback-review{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    
+}
+.reviewer-info{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.review-contant{
+    background-color: #F2EDED;
+    border-radius: 14px;
+    padding: 24px;
+}
+.review-image{
+    
+}
+.reviewer-name{
+    color: rgba(117, 117, 117, 1);
+}
+.reviewer-date{
+    color: rgba(179, 179, 179, 1);
 }
