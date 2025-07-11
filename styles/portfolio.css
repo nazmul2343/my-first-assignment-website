@@ -98,6 +98,7 @@ nav{
 main{
     max-width: 1140px;
     margin: 0 auto;
+
 }
 
 /* users-section */
@@ -174,4 +175,60 @@ main{
 }
 .reviewer-date{
     color: rgba(179, 179, 179, 1);
+}
+
+/* touch-section */
+
+.touch-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: auto;
+    align-items: center;
+    
+}
+.touch-left-side{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.touch-right-side{
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+.touch-title{
+    font-size: 95px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    line-height: 120%;
+}
+.touch-column{
+    width: auto;
+}
+.touch-input{
+    height: 60px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+    width: 490px;
+    padding: 15px 20px;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.touch-sub-title{
+    font-size: 25px;
+    font-weight: 400px;
+}
+.input-row{
+    height: 120px;
+}
+.input-button{
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 20px 220px;
+    border: none;
+    border-radius:10px ;
+    
+    
+    
 }
