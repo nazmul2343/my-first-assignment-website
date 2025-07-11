@@ -17,6 +17,11 @@
     margin: 0 auto;
     
 }
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(247, 249, 255, 1);
+}
 
 .btn-primary{
     font-size: 16px;
@@ -25,7 +30,15 @@
     padding: 12px 36px;
     border: none;
     border-radius:10px ;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+    
 }
+.btn:hover{
+    background-color: rgb(28, 203, 28);
+    
+}
+
 /* nav styles */
 nav{
     display: flex;
@@ -143,14 +156,12 @@ main{
     font-size: 42px;
     font-weight: bold;
     color: #252432;
+    text-align: center;
 }
 .feedback-section{
     margin-top: 140px;
 }    
-.feedback-contant{
-    text-align: center;
-    
-}
+
 .feedback-review{
     display: flex;
     gap: 20px;
@@ -167,9 +178,7 @@ main{
     border-radius: 14px;
     padding: 24px;
 }
-.review-image{
-    
-}
+
 .reviewer-name{
     color: rgba(117, 117, 117, 1);
 }
@@ -225,10 +234,43 @@ main{
     font-size: 16px;
     color: #FFFFFF;
     background-color: #4E47FF;
-    padding: 20px 220px;
+    padding: 20px 222px;
     border: none;
-    border-radius:10px ;
+    border-radius:10px ;  
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+/* footer-section */
+
+.footer-title{
+    font-size:100px ;
+    font-weight:900px ;
+    color: rgba(78, 71, 255, 1);
+    text-align: center;
+    padding-top: 105px;
+
+}
+.footer-sub-title{
+    color: #8987A1;
+    text-align: center;
+    padding-left:450px ;
+    padding-right:450px ;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #8987A1;
     
+}
+.links{
+    display: flex;
+    list-style: none;
+    padding-bottom: 100px;
+    justify-content: space-around;
+    padding-left: 450px ;
+    padding-right: 450px;
     
-    
+}
+.centered{
+    gap: 10px;
 }
